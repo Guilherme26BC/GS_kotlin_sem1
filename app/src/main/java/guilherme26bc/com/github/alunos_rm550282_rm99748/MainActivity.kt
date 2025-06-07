@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val toolbar:Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.title="Histórico de eventos e catastrofes climáticas"
+        supportActionBar?.title="Histórico de eventos e catastrofes"
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         val eventosAdapter = EventosAdapter{
